@@ -1,16 +1,23 @@
 import React from 'react'
 
+import Hero from './Hero'
+import Stats from './Stats'
+import HowItWorks from './HowItWorks'
+import FeaturedEvents from './FeaturedEvents'
+
 const Home = () => {
   return (
-    <div className="min-h-screen bg-black pt-32 text-white">
-      <h1 className="text-center text-6xl font-bold">
-        Campus<span className="text-lime-300">Hub</span>
-      </h1>
+    <main>
 
-      <p className="mt-5 text-center text-white/60">
-        Campus events, clubs and community
-      </p>
-    </div>
+      <Hero />
+
+      <Stats />
+
+      <HowItWorks />
+
+      <FeaturedEvents />
+
+    </main>
   )
 }
 
